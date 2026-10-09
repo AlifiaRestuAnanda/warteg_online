@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <!-- TextView Judul -->
+    <TextView
+        android:id="@+id/tvTitleLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="IMPLEMENTASI LINEAR LAYOUT"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <!-- TextView Deskripsi -->
+    <TextView
+        android:id="@+id/tvDescLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Linear Layout merupakan layout yang mensejajarkan semua Child View nya dalam satu arah yang sama (horizontal atau vertical). Dengan demikian, setiap view akan disusun berurutan satu per satu."
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp" />
+
+    <!-- Button OK (lebar match_parent, warna biru) -->
+    <Button
+        android:id="@+id/btnOkLinear"
+        style="@style/button_OK_Biru"
+        android:layout_marginTop="32dp"
+        android:text="OK" />
+
+</LinearLayout>

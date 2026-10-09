@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/white">
+
+    <!-- Judul -->
+    <TextView
+        android:id="@+id/tvTitleRelative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="IMPLEMENTASI RELATIVE LAYOUT"
+        android:textColor="@color/blue_dark"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <!-- Penjelasan / Deskripsi (Posisi di bawah Judul) -->
+    <TextView
+        android:id="@+id/tvDescRelative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitleRelative"
+        android:layout_marginTop="20dp"
+        android:text="RelativeLayout memungkinkan posisi komponen UI diatur secara relatif terhadap komponen lain (seperti layout_below) atau terhadap induknya (parent)."
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp" />
+
+    <!-- Tombol OK (Posisi di bawah Deskripsi) -->
+    <Button
+        android:id="@+id/btnOkRelative"
+        style="@style/button_OK_Biru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDescRelative"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@id/btnCancelRelative"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:text="OK" />
+
+    <!-- Tombol CANCEL (Sejajar secara horizontal dengan Tombol OK) -->
+    <Button
+        android:id="@+id/btnCancelRelative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/btnOkRelative"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="@color/gray_cancel"
+        android:minHeight="48dp"
+        android:text="CANCEL"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</RelativeLayout>

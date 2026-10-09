@@ -76,7 +76,7 @@
             android:padding="12dp"
             android:textSize="16sp" />
 
-        <!-- Button OK dengan style button_OK_Biru -->
+        <!-- Button OK -->
         <Button
             android:id="@+id/btnOk"
             style="@style/button_OK_Biru" />
@@ -92,6 +92,31 @@
             android:text="@string/btn_cancel"
             android:textColor="@color/white"
             android:textSize="16sp" />
+
+        <!-- Tombol Dashboard (id: dashboard) -->
+        <Button
+            android:id="@+id/dashboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/purple_500"
+            android:minHeight="48dp"
+            android:text="DASHBOARD"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <!-- Link Lupa Password (id: lupaPassword) -->
+        <TextView
+            android:id="@+id/lupaPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="8dp"
+            android:gravity="center"
+            android:text="@string/label_lupa_password"
+            android:textColor="@color/blue_dark"
+            android:textSize="14sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 </ScrollView>

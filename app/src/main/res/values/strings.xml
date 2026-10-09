@@ -7,4 +7,10 @@
     <string name="hint_password">Password</string>
     <string name="btn_ok">OK</string>
     <string name="btn_cancel">CANCEL</string>
+    <string name="label_lupa_password">Lupa password?</string>
+    <string name="title_lupa_password">Kesulitan Login?</string>
+    <string name="desc_lupa_password">Masukan email dan kami akan mengirimi Anda tautan untuk kembali ke akun Anda.</string>
+    <string name="hint_email">Masukan Email Anda</string>
+    <string name="btn_kirim_tautan">KIRIM TAUTAN RESET</string>
+    <string name="btn_kembali_login">Kembali ke Login</string>
 </resources>

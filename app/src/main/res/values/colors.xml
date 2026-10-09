@@ -10,5 +10,6 @@
     <color name="blue_primary">#2196F3</color>
     <color name="blue_dark">#1976D2</color>
     <color name="gray_cancel">#757575</color>
+    <color name="red_cancel">#F44336</color>
     <color name="bg_light">#F5F5F5</color>
 </resources>

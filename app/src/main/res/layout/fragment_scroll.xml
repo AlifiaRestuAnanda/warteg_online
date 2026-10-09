@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/white"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- TextView Judul -->
+        <TextView
+            android:id="@+id/tvTitleScroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="16dp"
+            android:text="IMPLEMENTASI SCROLLVIEW LAYOUT"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <!-- TextView Paragraf Panjang (Lorem Ipsum) -->
+        <TextView
+            android:id="@+id/tvLongText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:lineSpacingExtra="6dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nCurabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula.\n\nDonec lobortis risus a elit. Etiam sit amet orci. Eget eros sodales scelerisque. Mauris sit amet massa. Proin dapibus sapien vel ante. Aliquam erat volutpat. Pellentesque a sem. Vivamus nibh dolor, nonummy ac, feugiat non, lobortis quis, pede. Suspendisse dui. Fusce diam nunc, ullamcorper eu, egestas ac, condimentum id, sapien.\n\nNunc porta vulputate tellus. Nunc rutrum turpis sed pede. Sed bibendum. Aliquam posuere. Nunc feugiat ante vel felis. Praesent id massa id nisl felis facilisis. Quisque id odio. Praesent venenatis metus at tortor pulvinar varius.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel magna eu ligula hendrerit feugiat. Integer lacinia sollicitudin diam. Mauris egestas, dui a imperdiet mollis, erat lorem tristique magna, et scelerisque ante erat ac turpis. Cras vitae leo. Donec tempor, eros vitae vulputate aliquet, magna magna vulputate sem, non auctor mi lorem et est." />
+
+    </LinearLayout>
+
+</ScrollView>
